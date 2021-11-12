@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  font-family: Rubik;
+  font-size: 18px;
+}
+
+.appHeader{
+  height: 250px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.appHeading{
+  margin-top: 0px;
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+  padding-top: 30px;
+  text-align: center;
+}
+.inputField{
+  padding-left: 20px;
+  width: 400px;
+  height: 50px;
+  font-size: 18px;
+  border:none;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.ant-btn.searchButton{
+  background-color: black;
+  border:none;
+  width:50px;
+  height: 54px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.ant-card.detailsLayout{
+  background-color: white;
+  height: 110px;
+  width: 77%;
+  z-index: 1000;
+  margin-top: 40px;
+  position:absolute;
+  margin-left:10%;
+  margin-right:10%;
+  border-radius: 15px;
+  padding: 1%;
+}
+
+@media(max-width: 475px){
+  .inputField{
+    width: 250px;
+    height: 50px;
+  }
+  .ant-card.detailsLayout{
+    margin-top: 10%;
+    height: 170px;
+    padding-top:5%;
+    padding-bottom: 5%;
+  }
+}
+
