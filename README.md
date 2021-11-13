@@ -56,7 +56,7 @@ Users is able to:
 - [React](https://reactjs.org/) - JS library
 
 ## Run The Local Setup 
-- Unzip the sawo_ip_address_tracker.
+- Unzip the sawo_ip_tracker.
 - Open Command Prompt in the folder location.
 - npm install 
 - Change the keys (API_KEY and APP_KEY) in code (app.js)
