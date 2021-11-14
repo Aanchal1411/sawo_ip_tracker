@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Layout, Input, Row, Col, Button, Card, Form, Space } from "antd";
+import { Layout, Row, Col, Card, Space } from "antd";
 import pattern from "./../../img/pattern-bg.png";
 import arrow from "./../../img/icon-arrow.svg";
 import locationIcon from "./../../img/icon-location.svg";
@@ -9,10 +9,8 @@ import {
   TileLayer,
   Marker,
   Popup,
-  SVGOverlay,
 } from "react-leaflet";
 import "./landingPage.css";
-import { divIcon } from "leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
@@ -20,8 +18,6 @@ const locIcon = new L.icon({
   iconUrl: locationIcon,
   iconSize: [20, 30],
 });
-
-const onSearch = (value) => console.log(value);
 
 const LandingPage = () => {
   const APP_KEY = "at_EMWg2CyasaoJHn3z2qsVd6zKTUgZw";
