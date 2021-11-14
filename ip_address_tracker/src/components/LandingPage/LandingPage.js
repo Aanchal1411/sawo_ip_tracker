@@ -73,7 +73,7 @@ const LandingPage = () => {
                 />
                 <button className="searchButton" type="submit">
                   {" "}
-                  <img src={arrow} height="15"></img>{" "}
+                  <img src={arrow} height="15" alt="Search"></img>{" "}
                 </button>
               </form>
             </Row>
