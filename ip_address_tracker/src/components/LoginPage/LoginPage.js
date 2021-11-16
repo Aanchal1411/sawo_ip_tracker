@@ -4,7 +4,7 @@ import LandingPage from "../LandingPage/LandingPage";
 
 import "./loginPage.css";
 
-const API_KEY = "5b6203ca-b4ff-40c7-b06d-e492915ca75a";
+const API_KEY = "";
 
 const LoginPage = () => {
   const [isUserLoggedIn, setUserLoggedIn] = useState(false);
