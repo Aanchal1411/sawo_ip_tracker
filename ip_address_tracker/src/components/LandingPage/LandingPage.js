@@ -20,7 +20,7 @@ const locIcon = new L.icon({
 });
 
 const LandingPage = () => {
-  const APP_KEY = "at_EMWg2CyasaoJHn3z2qsVd6zKTUgZw";
+  const APP_KEY = "";
   const [IPdata, SetIPData] = useState([]);
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("8.8.8.8");
